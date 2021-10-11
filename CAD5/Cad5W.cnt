@@ -1,0 +1,51 @@
+:Base Cad5W.hlp
+:Title Cad5W
+:Index dummy=dummy.hlp ;(This is necessary when using KLinks - because of a bug in the help
+:Link dummy.hlp        ; compiler. Without this only the first keyword would be looked up!)
+1 Présentation=SHM_contents0001@Cad5W.hlp
+1 Primitives
+1 Parallélépipède=SHM_contents0002@Cad5W.hlp
+1 Cylindre=SHM_contents0003@Cad5W.hlp
+1 Cône=SHM_contents0004@Cad5W.hlp
+1 Ellipsoïde=SHM_contents0005@Cad5W.hlp
+1 Formes étirées suivant OX.   =SHM_contents0006@Cad5W.hlp
+1 Formes étirées suivant OY   =SHM_contents0007@Cad5W.hlp
+1 Formes étirées suivant OZ=SHM_contents0008@Cad5W.hlp
+1 Pyramide X=SHM_contents0009@Cad5W.hlp
+1 Pyramide Y=SHM_contents0010@Cad5W.hlp
+1 Pyramide Z=SHM_contents0011@Cad5W.hlp
+1 Solide de révolution suivant 0X=SHM_contents0012@Cad5W.hlp
+1 Solide de révolution suivant OY=SHM_contents0013@Cad5W.hlp
+1 Solide de révolution suivant OZ=SHM_contents0014@Cad5W.hlp
+1 Surfaces de base
+1 Polygone régulier à nombre cotés.=SHM_contents0015@Cad5W.hlp
+1 Ellipse =SHM_contents0016@Cad5W.hlp
+1 Oblong =SHM_contents0017@Cad5W.hlp
+1 Point de base   =SHM_contents0018@Cad5W.hlp
+1 Cercle=SHM_contents0019@Cad5W.hlp
+1 Macro-commandes
+1 Arbre=SHM_contents0020@Cad5W.hlp
+1 Borgne=SHM_contents0021@Cad5W.hlp
+1 Déplacement des formes
+1 Translation=SHM_contents0022@Cad5W.hlp
+1 Rotation=SHM_contents0023@Cad5W.hlp
+1 Symétries=SHM_contents0024@Cad5W.hlp
+1 Opérations topologiques
+1 FUSION=SHM_contents0025@Cad5W.hlp
+1 COUPE=SHM_contents0026@Cad5W.hlp
+1 INTER=SHM_contents0027@Cad5W.hlp
+1 Options de représentation
+1 Facettisation=SHM_contents0028@Cad5W.hlp
+1 Couleur=SHM_contents0029@Cad5W.hlp
+1 Animation
+1 Evaluateur de fonction.=SHM_contents0030@Cad5W.hlp
+1 Animation =SHM_contents0031@Cad5W.hlp
+1 Gestion des pièces
+1 Déclaration =SHM_contents0032@Cad5W.hlp
+1 Déplacement=SHM_contents0033@Cad5W.hlp
+1 Exemples de fichier
+1 Coulisse=SHM_contents0034@Cad5W.hlp
+1 Sauteuse=SHM_contents0035@Cad5W.hlp
+1 Divers
+1 Avertissements=SHM_contents0036@Cad5W.hlp
+1 En cas de problèmes=SHM_contents0037@Cad5W.hlp

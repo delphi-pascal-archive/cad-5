@@ -1,0 +1,66 @@
+Ns:=32;
+Piece(15,3);
+pt(2,0);pt(38,0);pt(40,2);pt(40,37);pt(38,39);pt(2,39);pt(0,37);pt(0,2);
+EtiZ(-11,11,1);fusion;
+cyl(8,42);ry(90);tx(-1);ty(27);coupe;
+cyl(4,28);rx(-90);ty(-1);tx(20);coupe;
+par(42,16,3);tz(-1.5);ty(-1);tx(-1);coupe;
+cyl(2.5,12);tx(8);ty(7.5);tz(-12);coupe;
+cyl(2.5,12);tx(32);ty(7.5);tz(-12);coupe;
+cyl(3,12);tx(8);ty(7.5);coupe;
+cyl(3,12);tx(32);ty(7.5);coupe;
+Oblong(4,22);etiz(-12,12);rz(90);tx(20);ty(27);coupe;
+'pour enlever 1/4 de la noix:
+par(21,41,12);tx(-1);ty(-1);coupe;
+tx(-20,15);ty(-19,15);
+
+Piece(16,1);
+arbre(8,22,1,45,1,45);tz(-11);ry(90);fusion;
+cyl(3,18);tz(-9);coupe;
+'pour enlever 1/4 de la coulisse:
+par(12,9,18);tx(-12);tz(-9);coupe;
+ty(8,16);
+'vue enclat‚e
+'tx(-75,16);
+
+Piece(11,3);
+pt(0,-89);pt(10,-89);pt(10,-77);pt(7,-77);pt(7,-19);pt(4,-19);pt(4,-3);
+pt(3,-2);pt(0,-2);RevY;fusion;
+borgne(3,33);rx(-90);ty(-90);coupe;
+cyl(2,10);ry(90);ty(-83.5);coupe;
+'vue enclat‚e
+'ty(-30,11);
+
+Piece(7,7);
+pt(0,0);pt(11,0);pt(11,2);pt(10,2);pt(9,3);pt(9,28);pt(0,28);RevY;fusion;
+pt(9,-1);pt(7,1);pt(7,29);pt(0,29);RevY;coupe;
+'pour enlever 1/4 de la bague m‚tafram:
+par(15,30,15);ty(-1);ry(-90);coupe;
+ty(-74,7);
+
+Piece(2,7);
+pt(0,0);pt(14,0);pt(14,3);pt(12,3);pt(11,4);pt(11,33);pt(0,33);RevY;fusion;
+pt(10,-1);pt(8,1);pt(8,34);pt(0,34);RevY;coupe;
+'pour enlever 1/4 de la bague m‚tafram:
+par(20,35,20);ty(-1);coupe;
+rx(-90,2);rz(90,2);tz(-19,2);
+'vue enclat‚e
+'tz(-115,2);
+
+Piece(3,2);
+pt(15,0);pt(16,1);pt(16,6);pt(8,6);pt(8,39);pt(6,39);pt(6,45);pt(5,46);
+pt(4,46);pt(4,66);pt(3,67);pt(0,67);RevZ;rx(180);tz(-13);fusion;
+arbre(3,24,0,0,1,45);ty(8);tz(-14);fusion;
+Oblong(2,7);etiy(0,5);ry(90);ty(4);tz(-54);coupe;
+'vue enclat‚e
+'tz(-50,3);
+
+Centre(300,100);
+
+anime(0,2*PI,32,0,2);
+rz(u*180/PI,3);
+tx(-sin(u)*8,16);
+ty((-1+cos(u))*8,16);
+ty((-1+cos(u))*8,15);
+ty((-1+cos(u))*8,11);
+
